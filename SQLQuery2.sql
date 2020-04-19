@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[Classes]
+(
+    [ID] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    [Name] VARCHAR(50) NOT NULL,
+    [Teacher] VARCHAR(250) NOT NULL
+)
+
+CREATE TABLE [dbo].[Subjects]
+(
+    [SubjectCode] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    [Name] VARCHAR(50) NOT NULL,
+    [Teacher] VARCHAR(250) NOT NULL
+)
